@@ -10,7 +10,7 @@ body{
     margin: 0 auto;
     background-color: blanchedalmond;
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 5fr;
     grid-template-rows: 80px auto 50px;
     grid-template-areas: 
     "header header"
@@ -79,7 +79,7 @@ label{
    
 }
 
-input[type="text"]{
+input[type="text"], input[type="password"]{
     margin-left:50px;
 }
 
